@@ -1,0 +1,12 @@
+[package]
+name = "hft-orderbook"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.133"
+websocket = "0.27.1"
+serde = { version = "1.0.215", features = ["derive"] }
+log = "0.4.22"
+env_logger = "0.10.2"  # or another logger implementation
+
